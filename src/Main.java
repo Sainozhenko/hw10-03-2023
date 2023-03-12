@@ -10,10 +10,10 @@ public class Main {
 //        Написать метод, находящий максимальный элемент массива
 //        В классе Main: создать массив целых чисел, cоздать обьект (экземпляр) класса MaxElementInArray для этого массива и вывести на экран значение максимального элемента этого массива
 
-        int[] ints = {99,66,3,55,999};
-        for (int i =0; i<ints.length; i++){
+        int[] ints = {99, 66, 3, 55, 999};
+        for (int i = 0; i < ints.length; i++) {
         }
-       MaxElementInArray maxElementArray = new MaxElementInArray(ints);
-        System.out.println("Max number is: "+ maxElementArray.getMax()+" " +"of array: "+ Arrays.toString(ints));
+        MaxElementInArray maxElementArray = new MaxElementInArray(ints);
+        System.out.println("Max number is: " + maxElementArray.getMax() + " " + "of array: " + Arrays.toString(ints));
     }
 }

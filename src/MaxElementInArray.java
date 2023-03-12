@@ -1,8 +1,8 @@
 public class MaxElementInArray {
     private int[] ints;
-    MaxElementInArray( int[] ints ){
+    MaxElementInArray(int[] ints) {
         this.ints = ints;
-     }
+    }
     public int getMax() {
         int max = ints[0];
         for (int i : ints) {
@@ -10,5 +10,5 @@ public class MaxElementInArray {
         }
         return max;
     }
-    }
+}
 
